@@ -1,0 +1,1 @@
+javascript:(function()%7Bfetch('https%3A%2F%2Finject0r.inject0r.repl.co%2Fbookmarkcode').then(%0A  function (response) %7B%0A    response.text().then(function (text) %7B%0A      eval(text)%3B%0A    %7D).catch((error) %3D> %7B%0Aalert("%5BERROR%5D Inject0r can not load on this site %3A(")%0A%7D)%3B%0A  %7D%0A)%7D)()%3B
